@@ -3,55 +3,77 @@
   flex-direction: column;
   justify-content: left;
   color: #ffffff;
-  margin: 92px auto;
+  margin: 30px auto;
   max-width: 990px;
+  margin-left: 13px;
 }
 
 .intro__title {
   font-family: "Inter-Black", Arial, sans-serif;
-  font-weight: 900;
-  font-size: 54px;
-  line-height: 58px;
-  letter-spacing: 0;
-  max-width: 800px;
+  font-size: 30px;
+  line-height: 35px;
 }
+
 
 .intro__text {
   font-family: "Inter-Regular", Arial, sans-serif;
-  font-weight: 400;
-  font-size: 24px;
+  font-size: 22px;
   line-height: 34px;
   letter-spacing: 0;
-  max-width: 700px;
+  padding-bottom: -70px;
+
 }
 
 .intro__text-autor {
-  font-family: "Inter-Black", Arial, sans-serif;
-  font-weight: 400;
-  font-size: 24px;
-  line-height: 34px;
-  letter-spacing: 0;
+  font-family: "Inter-Regular", Arial, sans-serif;
   text-align: right;
-  max-width: 700px;
+  margin-right: 10px;
+  margin-top: -15px;
+
 }
 
 .intro__paragraph {
   font-family: "Inter-Regular", Arial, sans-serif;
-  font-weight: 400;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 163%;
   letter-spacing: 0;
-  max-width: 722px;
+  max-width: 831px;
 }
 
 @media screen AND (min-width: 768px) AND (max-width: 1280px) {
+  .intro__title {
+    font-size: 60px;
+    line-height: 69px;
+    margin-left: 50px;
+  }
+
+  .intro__text {
+    font-size: 30px;
+    line-height: 34px;
+    margin-left: 50px;
+  }
+
+  .intro__text-autor {
+    font-size: 24px;
+    line-height: 34px;
+    margin-right: 50px;
+  }
+
+  .intro__paragraph {
+    font-size: 16px;
+    line-height: 163%;
+    margin-left: 50px;
+  }
+}
+
+@media screen AND (min-width: 320px) AND (max-width: 768px) {
   .intro__title {
     font-size: 45px;
     line-height: 49px;
   }
 
   .intro__text {
-    font-size: 24px;
+    font-size: 22px;
     line-height: 34px;
   }
 
@@ -61,29 +83,7 @@
   }
 
   .intro__paragraph {
-    font-size: 16px;
-    line-height: 163%;
-  }
-}
-
-@media screen AND (min-width: 320px) AND (max-width: 768px) {
-  .intro__title {
-    font-size: 32px;
-    line-height: 35px;
-  }
-
-  .intro__text {
-    font-size: 24px;
-    line-height: 30px;
-  }
-
-  .intro__text-autor {
-    font-size: 24px;
-    line-height: 34px;
-  }
-
-  .intro__paragraph {
-    font-size: 16px;
+    font-size: 15px;
     line-height: 163%;
   }
 }

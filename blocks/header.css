@@ -1,0 +1,30 @@
+.header {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.header__logo {
+  margin-top: 34px;
+  max-width: 255px;
+  height: 69px;
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    width: 100%;
+  }
+}
+
+.header__logo {
+  max-width: 254px;
+  height: 66px;
+}
+
+@media screen and (max-width: 320px) {
+  .header__logo {
+    max-width: 188px;
+    margin-top: 20px;
+    height: 52px;
+  }
+}
