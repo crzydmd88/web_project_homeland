@@ -12,4 +12,4 @@ Tecnologîas/técnicas del proyecto: HTML5, CSS3, Diseño Responsivo, Metodolog�
 Figma.
 
 Autor: Victoria Maldonado.
-Enlace: https://github.com/crzydmd88/web_project_homeland
+Enlace: https://crzydmd88.github.io/web_project_homeland/
